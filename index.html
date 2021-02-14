@@ -1,0 +1,45 @@
+<head>
+  <title>CGPA Calculator</title>
+</head>
+
+<body>
+    <table class="table table-inverse">
+    
+    <thead>
+      <tr>
+        <th>SELECT</th>
+        <th>TERM</th>
+        <th>GPA</th>
+        
+      </tr>
+    </thead>
+      
+      
+    <tbody>
+          <tr = "input">
+              <td><input type = "checkbox" class="form-control check" name = "delete" disabled/></td>
+              <td><input type = "text" class="form-control term"/></td>
+              <td><input name = "mark" type = "number" min = "0" max = "100" class="form-control gpa" id = "gpa"/></td>
+              
+          </tr>
+      
+          <tr class = "total">
+            <th>GPA Sum<input type = "text" class ="form-control sum" id="sum"/></th>
+            <th>CGPA<input type = "text" class="form-control final" id = "cgpa"/></th>
+            <th>Letter Grade <input type = "text" class="form-control letter" id = "letter"/></th>
+          </tr>
+      
+          <tr>
+        <td>
+                <button class = "btn btn-block btn-danger delete">Delete</button> 
+            </td>
+            <td>
+              <button class = "btn btn-block btn-success clear">Clear</button>
+            </td>
+            <td>
+                <button class = "btn btn-block btn-primary submit">Submit</button> 
+            </td>
+          </tr>
+      </tbody>
+  </table>
+</body>
